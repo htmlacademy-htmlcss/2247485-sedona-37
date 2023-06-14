@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="main-header">
@@ -10,7 +11,7 @@
         <ul class="navigation-list">
           <li>
             <a class="main-header-logo" href="#">
-              <img src="images/welcome.png" width="458" height="352" alt="Логотип сайта городка Седона">
+              <img src="images/logo.svg" width="140" height="70" alt="Логотип сайта городка Седона">
             </a>
           </li>
           <li class="navigation-item">
@@ -133,8 +134,8 @@
         </a>
         <span class="product-card-type">Гостиница</span>
         <span class="product-card-price">От 4000 Р</span>
-        <a class="product-card-button button more" href="#">Подробнее</a>
-        <a class="product-card-button button blue" href="#">В избранное</a>
+        <a class="product-card-button-more" href="#">Подробнее</a>
+        <a class="product-card-button-blue" href="#">В избранное</a>
       </li>
       <li class="product-card">
         <a class="product-card-link" href="product.html">
@@ -143,8 +144,8 @@
         </a>
         <span class="product-card-type">Гостиница</span>
         <span class="product-card-price">От 5000 Р</span>
-        <a class="product-card-button button more" href="#">Подробнее</a>
-        <a class="product-card-button button green" href="#">В избранное</a>
+        <a class="product-card-button-more" href="#">Подробнее</a>
+        <a class="product-card-button-green" href="#">В избранное</a>
       </li>
       <li class="product-card">
         <a class="product-card-link" href="product.html">
@@ -153,8 +154,8 @@
         </a>
         <span class="product-card-type">Гостиница</span>
         <span class="product-card-price">От 2500 Р</span>
-        <a class="product-card-button button more" href="#">Подробнее</a>
-        <a class="product-card-button button blue" href="#">В избранное</a>
+        <a class="product-card-button-more" href="#">Подробнее</a>
+        <a class="product-card-button-blue" href="#">В избранное</a>
       </li>
       <li class="product-card">
         <a class="product-card-link" href="product.html">
@@ -163,8 +164,8 @@
         </a>
         <span class="product-card-type">Гостиница</span>
         <span class="product-card-price">От 1500 Р</span>
-        <a class="product-card-button button more" href="#">Подробнее</a>
-        <a class="product-card-button button blue" href="#">В избранное</a>
+        <a class="product-card-button-more" href="#">Подробнее</a>
+        <a class="product-card-button-blue" href="#">В избранное</a>
       </li>
     </ul>
     <ul class="pagination">
@@ -197,6 +198,16 @@
         </a>
       </li>
     </ul>
+  </section>
+  <section class="subscribe-catalog">
+    <h2 class="subscribe-catalog-title">Подпишитесь на рассылку</h2>
+    <p class="subscribe--catalog-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+    <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
+      <label type="hidden">
+        <input type="text" name="subscribe-email">
+          <button class="button" type="submit">Подписаться</button>
+      </label>
+    </form>
   </section>
 </main>
     <footer class="page-footer">
